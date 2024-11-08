@@ -17,6 +17,7 @@ h1
     height:fit-content;
     display:flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 .main-services
@@ -25,15 +26,13 @@ h1
     font-size:.8rem;
     font-weight:100;
     color:#5A5A5A;
-    padding:2rem;
-    padding-top:1rem;
-    width:inherit;
-    background-color: red;
+    width:40%;
 }
 .main-services h2
 {
     font-weight:100;
     font-size: 1rem;
+    word-wrap: break-word;
 }
 body
 {
@@ -44,14 +43,18 @@ body
 .main-services li, .main-services ul
 {
     padding:0;
-    padding-left: .6rem;
     font-size:.9rem;
     font-weight: 500;
 }
 
+.main-services ul
+{
+    padding-left:2rem;
+}
+
 .main-container
 {
-    width:32vw;
+    width:32rem;
     background-color:#E4E8EF;
     border-style: solid;
     border-color: #5A5A5A;
@@ -62,6 +65,7 @@ body
     display: flex;
     padding-bottom: 3rem;
     width:inherit;
+    justify-content: space-evenly;
     
 }
 
