@@ -6,26 +6,61 @@
 h1
 {
     font-family: golosText;
-    font-weight: 100;
+    font-weight:10;
     margin: 0;
-    padding:1rem;
+    padding:.2rem;
+    color:#5A5A5A;
 }
 
 .title-logo
 {
     height:fit-content;
+    display:flex;
+    justify-content: center;
 }
 
+.main-services
+{
+    font-family: golosText;
+    width:50%;
+    font-size:.8rem;
+    font-weight:100;
+    color:#5A5A5A;
+    padding:2rem;
+    padding-top:1rem;
+}
+.main-services h2
+{
+    font-weight:100;
+    font-size: 1rem;
+}
 body
 {
     display:flex;
     justify-content: center;
 }
 
+.main-services li, .main-services ul
+{
+    padding:0;
+    padding-left: .6rem;
+    font-size:.9rem;
+    font-weight: 500;
+}
+
 .main-container
 {
-    width:40vw;
+    width:32vw;
     background-color:#E4E8EF;
+    border-style: solid;
+    border-color: #5A5A5A;
+}
+
+.main-content
+{
+    display: flex;
+    padding-bottom: 3rem;
+    
 }
 
 .main-container h1
@@ -54,5 +89,25 @@ body
     padding:1rem;
     padding-left:2rem;
     padding-right:2rem;
+}
+
+.header-divider
+{
+    height:.6rem;
+    background-color:#8DA4C8;
+}
+
+.cover-image
+{
+    height:16rem;
+    overflow: hidden;
+    width:inherit;
+}
+
+.cover-image img
+{
+    width:inherit;
+    position: relative;
+    top:-200px;
 }
 
