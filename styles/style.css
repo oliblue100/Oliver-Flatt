@@ -8,7 +8,7 @@ h1
     font-family: golosText;
     font-weight:10;
     margin: 0;
-    padding:.2rem;
+    padding:.8rem;
     color:#5A5A5A;
 }
 
@@ -22,12 +22,13 @@ h1
 .main-services
 {
     font-family: golosText;
-    width:50%;
     font-size:.8rem;
     font-weight:100;
     color:#5A5A5A;
     padding:2rem;
     padding-top:1rem;
+    width:inherit;
+    background-color: red;
 }
 .main-services h2
 {
@@ -60,6 +61,7 @@ body
 {
     display: flex;
     padding-bottom: 3rem;
+    width:inherit;
     
 }
 
