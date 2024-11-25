@@ -54,7 +54,8 @@ body
 
 .main-container
 {
-    width:32rem;
+    width:100%;
+    max-width:32rem;
     background-color:#E4E8EF;
     border-style: solid;
     border-color: #5A5A5A;
