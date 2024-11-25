@@ -12,6 +12,15 @@ h1
     color:#5A5A5A;
 }
 
+.splash
+{
+    text-align:center;
+    background-color: red;
+    color:white;
+    font-family: golosText;
+    padding:.5rem;
+}
+
 .title-logo
 {
     height:fit-content;
